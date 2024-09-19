@@ -1,0 +1,301 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <metadata name="timer1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAABAAEAgIAQAAEABABoKAAAFgAAACgAAACAAAAAAAEAAAEABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAP8A////AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIi
+        IiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIi
+        IiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIi
+        IiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIgAiIiIiIiIiIiIiIiIAIiIi
+        IiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiAAIiIiIiIiIiIiIiIi
+        AAIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIAAiIiIiIiIiIi
+        IiIiIiAAIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIgACIiIiIi
+        IiIiIiIiIiIiAAIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiAAIi
+        IiIiIiIiIiIiIiIiIiAAIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIi
+        IAAiIiIiIiIiIiIiIiIiIiIiAAIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIi
+        IiIiIgACIiIiIiIiIiESIiIiIiIiIiAAIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIi
+        IiIiIiIiIiAAIiIiIiIiIiIRESIiIiIiIiIiAAIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIi
+        IiIiIiIiIiIiIiIAAiIiIiIiIiIhERESIiIiIiIiIiAAIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIi
+        IiIiIiIiIiIiIiIiIiIgACIiIiIiIiIiERERESIiIiIiIiIiAAIiIiIiIiIiIiIiIiIiIiIiIiIiIiIi
+        IiIiIiIiIiIiIiIiIiIiIiIiIAAiIiIiIiIiIRERERESIiIiIiIiIgACIiIiIiIiIiIiIiIiIiIiIiIi
+        IiIiIiIiIiIiIiIiIiIiIiIiIiIiIiAAIiIgIiIiIhERERERESIiIiICIiIAAiIiIiIiIiIiIiIiIiIi
+        IiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIgACIiACIiIiERERERERESIiIiACIiAAIiIiIiIiIiIiIi
+        IiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIAAiIAAiIiIRERERERERESIiIgACIgACIiIiIiIi
+        IiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiAAIgAAIiIhERERERERERESIiIAACIAAiIi
+        IiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIgACIAACIiERERERERERERESIiAAAi
+        AAIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIAAiAAAiIRERERERERERERES
+        IgAAIgACIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiAAIgAAIhERERERERER
+        ERERESIAACIAAiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIgACIAACERERER
+        ERERERERERESAAAiAAIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIAAiAAAR
+        EREREREREREREREREQAAIgACIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiAA
+        IgAAEREREREREREREREREREAACIAAiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIi
+        IiIgACIAABERERERERERERERERERAAAiAAIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIi
+        IiIiIiIiIAAiAAAREREREREREREREREREQAAIgACIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIi
+        IiIiIiIiIiIiIiAAIgAAEREREREREREREREREREAACIAAiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIi
+        IiIiIiIiIiIiIiIiIiIgACIAABERERERERERERERERERAAAiAAIiIiIiIiIiIiIiIiIiIiIiIiIiIiIi
+        IiIiIiIiIiIiIiIiIiIiIiIiIAAiAAAREREREREREREREREREQAAIgACIiIiIiIiIiIiIiIiIiIiIiIi
+        IiIiIiIiIiIiIiIiIiIiIiIiIiIiIiAAIgAAEREREREREAEREREREREAACIAAiIiIiIiIiIiIiIiIiIi
+        IiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIgACIAABERERERERABERERERERAAAiAAIiIiIiIiIiIiIi
+        IiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiAAIiAAAREREREREQAREREREREQAAIiAAIiIiIiIi
+        IiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIAAiIgAAEREREREREAEREREREREAACIiAAIi
+        IiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIgACIiIAABERERERERABERERERERAAAi
+        IiAAIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIAIiIgAAEREREREREQARERERER
+        ERAAAiIiACIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiAiIiAAAREREREREREAER
+        ERERERERAAAiIiAiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIAABERERERER
+        ERABERERERERERAAAiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIgAAERER
+        EREREREQARERERERERERAAAiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIAAiIiAA
+        AREREREREREREAERERERERERERAAAiIiAAIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIgAC
+        IiIgABERERERERERERABERERERERERERAAIiIiAAIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIi
+        IiAAIiIiAAAREREREREREREQAREREREREREREQAAIiIiAAIiIiIiIiIiIiIiIiIiIiIiIiIiIiIAAAAA
+        AAAAAAAAAiIiAAAAEREREREREREREAEREREREREREREAAAAiIiAAAAAAAAAAAAAAIiIiIiIiIiIiIiIg
+        AAAAAAAAAAAAACIiIAAAABERERERERERERABERERERERERERAAAAAiIiAAAAAAAAAAAAAAIiIiIiIiIi
+        IiIiAAAAAAAAAAAAAAIiIgAAAAAREREREREREREQAREREREREREREQAAAAAiIiAAAAAAAAAAAAAAIiIi
+        IiIiIiIiIAAiIiIiIiIiIiIiIiAAAREREREREREREREREAERERERERERERERERAAAiIiIiIiIiIiIiIi
+        AAIiIiIiIiIiIgACIiIiIiIiIiIiIiIAABERERERERERERERERABERERERERERERERERAAAiIiIiIiIi
+        IiIiIiAAIiIiIiIiIiAAIiIiIAAAAAAAAAAAAAEREREREREREREREREQARERERERERERERERERAAAAAA
+        AAAAAAACIiIiAAIiIiIiIiIAAiIiIgAAAAAAAAAAAAAREREREREREREREREREAERERERERERERERERER
+        AAAAAAAAAAAAACIiIiAAIiIiIiIgACIiIiAAAAAAAAAAAAABERERERERERERERERERABERERERERERER
+        ERERERAAAAAAAAAAAAACIiIiAAIiIiIiAAIiIiIAAAAAAAAAAAAAEREREREREREREREREREQARERERER
+        ERERERERERERAAAAAAAAAAAAACIiIiAAIiIiIAAiIiIiEREREREREREREREREREREREREREREREREAER
+        EREREREREREREREREREREREREREREREiIiIiAAIiIiACIiIiIRERERERERERERERERERERERERERERER
+        EQAAEREREREREREREREREREREREREREREREREiIiIiACIiIiIiIiIhERERERERERERERERERERERERER
+        ERERERAAAAEREREREREREREREREREREREREREREREREiIiIiIiIiIiIiIiERERERERERERERERERERER
+        EREREREREREAAAAAEREREREREREREREREREREREREREREREREiIiIiIiIiIiIiIRERERERERERERERER
+        EREREREREREREREQAAAAAAEREREREREREREREREREREREREREREREREiIiIiIiIiIiIhERERERERERER
+        EREREREREREREREREREREAAAAAABEREREREREREREREREREREREREREREREREiIiIiIiIiIiERERERER
+        EREREREREREREREREREREREREQAAARAAABEREREREREREREREREREREREREREREREREiIiIiIiIiIRER
+        ERERERERERERERERERERERERERERERAAABERAAABEREREREREREREREREREREREREREREREREiIiIiIi
+        IhEREREREREREREREREREREREREREREREREAAAERERAAABEREREREREREREREREREREREREREREREREi
+        IiIiIiEREREREREREREREREREREREREREREREREAAAABEREQAAAAERERERERERERERERERERERERERER
+        EREREiIiIiIREREREREREREREREREREREREREREREREQAAAAABERAAAAAAERERERERERERERERERERER
+        EREREREREREiIiIhERERERERERERERERERERERERERERERERAAAAEQABEAARAAAAERERERERERERERER
+        EREREREREREREREREiIiEREREREREREREREREREREREREREREREREAAAAREQAAABERAAAAERERERERER
+        EREREREREREREREREREREREiIREREREREREREREREREQAAAAAAAAAAAAAAAAABEREQAAERERAAAAAAAA
+        AAAAAAAAAAEREREREREREREREREREiEREREREREREREREREREAAAAAAAAAAAAAAAAAAREREAABEREQAA
+        AAAAAAAAAAAAAAABERERERERERERERERERIiEREREREREREREREREREREREREREREREREAAAAREQAAAB
+        ERAAAAEREREREREREREREREREREREREREREREREiIiEREREREREREREREREREREREREREREREREAAAAR
+        AAEQABEAAAARERERERERERERERERERERERERERERERESIiIiERERERERERERERERERERERERERERERER
+        EAAAAAAREQAAAAABERERERERERERERERERERERERERERERERIiIiIiERERERERERERERERERERERERER
+        EREREREAAAABEREQAAAAEREREREREREREREREREREREREREREREREiIiIiIiERERERERERERERERERER
+        EREREREREREREQAAAREREAAAERERERERERERERERERERERERERERERERESIiIiIiIiERERERERERERER
+        EREREREREREREREREREQAAAREQAAARERERERERERERERERERERERERERERERERIiIiIiIiIiERERERER
+        EREREREREREREREREREREREREQAAARAAABEREREREREREREREREREREREREREREREREiIiIiIiIiIiER
+        EREREREREREREREREREREREREREREREQAAAAAAERERERERERERERERERERERERERERERERESIiIiIiIi
+        IiIiEREREREREREREREREREREREREREREREREAAAAAABERERERERERERERERERERERERERERERERIiIi
+        IiIiIiIiIiEREREREREREREREREREREREREREREREREAAAAAERERERERERERERERERERERERERERERER
+        EiIiIiIiIiIiIiIiEREREREREREREREREREREREREREREREREAAAARERERERERERERERERERERERERER
+        ERERESIiIiIiIiIgAiIiIiEREREREREREREREREREREREREREREREREAABERERERERERERERERERERER
+        ERERERERERIiIiIgAiIiIAAiIiIiEREREREREREREREREREREREREREREREREAERERERERERERERERER
+        EREREREREREREREiIiIiAAIiIiIAAiIiIgAAAAAAAAAAAAARERERERERERERERERERABERERERERERER
+        EREREREAAAAAAAAAAAAAIiIiIAAiIiIiIAAiIiIgAAAAAAAAAAAAAREREREREREREREREREQARERERER
+        EREREREREREQAAAAAAAAAAAAAiIiIgACIiIiIiIAAiIiIgAAAAAAAAAAAAAREREREREREREREREREAER
+        ERERERERERERERERAAAAAAAAAAAAACIiIiAAIiIiIiIiIAAiIiIgAAAAAAAAAAAAARERERERERERERER
+        ERABEREREREREREREREREAAAAAAAAAAAAAIiIiIAAiIiIiIiIiIAAiIiIiIiIiIiIiIiAAARERERERER
+        EREREREQAREREREREREREREREQAAIiIiIiIiIiIiIiIgACIiIiIiIiIiIAAiIiIiIiIiIiIiIiAAARER
+        EREREREREREREAERERERERERERERERAAAiIiIiIiIiIiIiIiAAIiIiIiIiIiIiIAAAAAAAAAAAAAAiIi
+        AAAAABERERERERERERABERERERERERERAAAAACIiIAAAAAAAAAAAAAAiIiIiIiIiIiIiIAAAAAAAAAAA
+        AAAiIiAAAAAREREREREREREQAREREREREREREQAAAAIiIgAAAAAAAAAAAAACIiIiIiIiIiIiIiIAAAAA
+        AAAAAAAAAiIiAAAAEREREREREREREAEREREREREREREAAAAiIiAAAAAAAAAAAAAAIiIiIiIiIiIiIiIi
+        IiIiIiIiIiIiIAAiIiIAABERERERERERERABERERERERERERAAAiIiIAAiIiIiIiIiIiIiIiIiIiIiIi
+        IiIiIiIiIiIiIiIiIiIAAiIiIAAREREREREREREQAREREREREREREQACIiIgACIiIiIiIiIiIiIiIiIi
+        IiIiIiIiIiIiIiIiIiIiIiIiIAAiIiAAAREREREREREREAERERERERERERAAIiIiAAIiIiIiIiIiIiIi
+        IiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiAAARERERERERERABEREREREREREAACIiIiIiIiIiIiIi
+        IiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiAAAREREREREREQAREREREREREQAAIiIiIiIiIi
+        IiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiAiIiAAAREREREREREAERERERERERAAAiIiAi
+        IiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIgAiIiAAARERERERERABEREREREREAAC
+        IiIAIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIAAiIiAAAREREREREQARERERER
+        EQAAIiIgACIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIAAiIgAAEREREREREAER
+        EREREREAACIiAAIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIAAiIAABERERER
+        ERABERERERERAAAiIAAiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIAAiAAAR
+        EREREREQAREREREREQAAIgACIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiAA
+        IgAAEREREREREAEREREREREAACIAAiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIi
+        IiIgACIAABERERERERERERERERERAAAiAAIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIi
+        IiIiIiIiIAAiAAAREREREREREREREREREQAAIgACIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIi
+        IiIiIiIiIiIiIiAAIgAAEREREREREREREREREREAACIAAiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIi
+        IiIiIiIiIiIiIiIiIiIgACIAABERERERERERERERERERAAAiAAIiIiIiIiIiIiIiIiIiIiIiIiIiIiIi
+        IiIiIiIiIiIiIiIiIiIiIiIiIAAiAAAREREREREREREREREREQAAIgACIiIiIiIiIiIiIiIiIiIiIiIi
+        IiIiIiIiIiIiIiIiIiIiIiIiIiIiIiAAIgAAEREREREREREREREREREAACIAAiIiIiIiIiIiIiIiIiIi
+        IiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIgACIAABERERERERERERERERERAAAiAAIiIiIiIiIiIiIi
+        IiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIAAiAAAhEREREREREREREREREgAAIgACIiIiIiIi
+        IiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiAAIgAAIhERERERERERERERESIAACIAAiIi
+        IiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIgACIAACIhERERERERERERERIiAAAi
+        AAIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIAAiAAAiIhEREREREREREREi
+        IgAAIgACIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiAAIgAAIiIhERERERER
+        ERESIiIAACIAAiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIgACIgACIiIhER
+        ERERERERIiIiAAIiAAIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIAAiIgAi
+        IiIhEREREREREiIiIgAiIgACIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiAA
+        IiIgIiIiIhERERERESIiIiICIiIAAiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIi
+        IiIgACIiIiIiIiIhERERERIiIiIiIiIiAAIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIi
+        IiIiIiIiIAAiIiIiIiIiIhEREREiIiIiIiIiIgACIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIi
+        IiIiIiIiIiIiIiIAAiIiIiIiIiIhERESIiIiIiIiIiAAIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIi
+        IiIiIiIiIiIiIiIiIiIiIAAiIiIiIiIiIhERIiIiIiIiIiIAAiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIi
+        IiIiIiIiIiIiIiIiIiIiIiIiIiIAAiIiIiIiIiIhEiIiIiIiIiIgACIiIiIiIiIiIiIiIiIiIiIiIiIi
+        IiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIAAiIiIiIiIiIiIiIiIiIiIiAAIiIiIiIiIiIiIiIiIiIiIi
+        IiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIAAiIiIiIiIiIiIiIiIiIiIAAiIiIiIiIiIiIiIiIi
+        IiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIAAiIiIiIiIiIiIiIiIiIgACIiIiIiIiIiIi
+        IiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIAAiIiIiIiIiIiIiIiIiAAIiIiIiIi
+        IiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIAAiIiIiIiIiIiIiIiIAAiIi
+        IiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIAIiIiIiIiIiIiIiIi
+        ACIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIi
+        IiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIi
+        IiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIi
+        IiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiL/////////////////////////////
+        ///////////////////////////////////////////P///z////////////////j///8f//////////
+        /////x////j///////////////4////8f//////////////8f////j//////////////+P////8f////
+        //////////H//n//j//////////////j//w//8f/////////////x//4H//j/////////////4//8A//
+        8f////////////+P/+AH//H/////////////j7/AA/3x/////////////48/gAH88f////////////+O
+        PwAA/HH/////////////jD4AAHwx/////////////4w8AAA8Mf////////////+MOAAAHDH/////////
+        ////jDAAAAwx/////////////4wgAAAEMf////////////+MAAAAADH/////////////jAAAAAAx////
+        /////////4wAAAAAMf////////////+MAAAAADH/////////////jAAAAAAx/////////////4wAAAAA
+        Mf////////////+MAAAAADH/////////////jAAAAAAx/////////////4wAAAAAMf////////////8c
+        AAAAADj////////////+PAAAAAA8f////////////HwAAAAAPj////////////z4AAAAAB8/////////
+        ///98AAAAAAPv////////////+AAAAAAB//////////////AAAAAAAP///////////+PgAAAAAAB8f//
+        ////////H4AAAAAAAfj//////////j8AAAAAAAD8f//////wAAB8AAAAAAAAPgAAD///4AAA+AAAAAAA
+        AB8AAAf//8AAAfAAAAAAAAAPgAAD//+P///gAAAAAAAAB///8f//H///wAAAAAAAAAP///j//j+AAAAA
+        AAAAAAAAAAH8f/x/AAAAAAAAAAAAAAAA/j/4/gAAAAAAAAAAAAAAAH8f8fwAAAAAAAAAAAAAAAA/j+P8
+        AAAAAAAAAAAAAAAAP8fn+AAAAAAAAAAAAAAAAB/n//AAAAAAAAAAAAAAAAAP///gAAAAAAAAAAAAAAAA
+        B///wAAAAAAAAAAAAAAAAAP//4AAAAAAAAAAAAAAAAAB//8AAAAAAAAAAAAAAAAAAP/+AAAAAAAAAAAA
+        AAAAAAB//AAAAAAAAAAAAAAAAAAAP/gAAAAAAAAAAAAAAAAAAB/wAAAAAAAAAAAAAAAAAAAP4AAAAAAA
+        AAAAAAAAAAAAB8AAAAAAAAAAAAAAAAAAAAOAAAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAAAAAAAcAA
+        AAAAAAAAAAAAAAAAAAPgAAAAAAAAAAAAAAAAAAAH8AAAAAAAAAAAAAAAAAAAD/gAAAAAAAAAAAAAAAAA
+        AB/8AAAAAAAAAAAAAAAAAAA//gAAAAAAAAAAAAAAAAAAf/8AAAAAAAAAAAAAAAAAAP//gAAAAAAAAAAA
+        AAAAAAH//8AAAAAAAAAAAAAAAAAD///gAAAAAAAAAAAAAAAAB///8AAAAAAAAAAAAAAAAA//5/gAAAAA
+        AAAAAAAAAAAf5+P8AAAAAAAAAAAAAAAAP8fx/AAAAAAAAAAAAAAAAD+P+P4AAAAAAAAAAAAAAAB/H/x/
+        AAAAAAAAAAAAAAAA/j/+P4AAAAAAAAAAAAAAAfx//x///8AAAAAAAAAD///4//+P///gAAAAAAAAB///
+        8f//wAAB8AAAAAAAAA+AAAP//+AAAPgAAAAAAAAfAAAH///wAAB8AAAAAAAAPgAAD//////+PwAAAAAA
+        APx//////////x+AAAAAAAH4//////////+PgAAAAAAD8f///////////8AAAAAAA//////////////g
+        AAAAAAf////////////98AAAAAAPv////////////PgAAAAAHz////////////x8AAAAAD4/////////
+        ///+PAAAAAA8f////////////xwAAAAAOP////////////+MAAAAADH/////////////jAAAAAAx////
+        /////////4wAAAAAMf////////////+MAAAAADH/////////////jAAAAAAx/////////////4wAAAAA
+        Mf////////////+MAAAAADH/////////////jAAAAAAx/////////////4wAAAAAMf////////////+M
+        IAAABDH/////////////jDAAAAwx/////////////4w4AAAcMf////////////+MPAAAPDH/////////
+        ////jD4AAHwx/////////////44/AAD8cf////////////+PP4AB/PH/////////////j7/AA/3x////
+        /////////4//4Af/8f////////////+P//AP//H/////////////x//4H//j/////////////+P//D//
+        x//////////////x//5//4//////////////+P////8f//////////////x////+P//////////////+
+        P////H///////////////x////j///////////////+P///x////////////////z///8///////////
+        /////////////////////////////////////////////////////////////w==
+</value>
+  </data>
+</root>
